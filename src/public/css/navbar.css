@@ -1,0 +1,89 @@
+
+
+#site,#navbar{
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+#site{
+    top:var(--var-height-navbar);
+}
+#navbar{
+    
+    height: var(--var-height-navbar);
+    padding: .7em 1.5em 0;
+    color: #fff;
+    z-index: 999;
+    background: var(--var-color-navbar);
+    /* background: -webkit-gradient(linear,left top,right top,from(#0388e5),to(#07bdf4)); */
+    /* background: linear-gradient(90deg,#0388e5 0,#07bdf4); */
+    /* background: -webkit-gradient(linear,left top,right top,from(var(--color-app)),to(var(--color-app-alternative)));
+    background: linear-gradient(90deg,var(--color-app) 0,var(--color-app-alternative)); */
+    
+}
+
+
+
+.action{
+    text-align: right;
+}
+
+
+
+
+#navbar .navbar-logo span{
+    font-size: 20px;
+}
+
+#navbar .navbar-clock,
+#navbar .navbar-alarm,
+#navbar .navbar-stopwatch,
+#navbar .navbar-timer,
+#navbar .navbar-logo{
+    float: right;
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: 21px;
+    bottom: 2px;
+    font-weight: bold;
+    position: relative;
+}
+
+#navbar span{
+    color: white;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+#navbar .icon{
+    display: none;
+}
+
+@media only screen and (max-width: 450px) {
+    #navbar{
+        bottom: 0;
+    }
+    #navbar.mobile-version .navbar-logo{
+        display: none;
+    }
+    #navbar.mobile-version > div {
+        width: 25%;
+        text-align: center;
+        margin-right: 0; 
+        font-size: 15px;
+        bottom: -2px;
+    }
+
+    #navbar.mobile-version .icon{
+        display: initial;
+        font-size: 20px;
+    }
+    #navbar.mobile-version .active > .icon{
+        color:#5598ff;
+    }
+    #navbar.mobile-version span{
+        display: none;
+    }
+
+}
+ 
