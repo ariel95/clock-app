@@ -13,10 +13,10 @@ const NavbarApp = () => {
             <div className="navbar-logo float-left" title="Clock app" onClick={() => { window.location.href = "/" }}>
                 <span>Clock App</span>
             </div>
-            <Alarm></Alarm>
-            <Clock></Clock>
             <Stopwatch></Stopwatch>
             <Timer></Timer>
+            <Clock></Clock>
+            <Alarm></Alarm>
         </div>
     );
 }

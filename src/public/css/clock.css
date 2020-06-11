@@ -1,0 +1,26 @@
+#clock{
+    align-content: center;
+    text-align: center;
+}
+
+#clock h1{
+    margin-bottom: 25px;
+}
+
+#clock .date,
+#clock .time{
+    color: #1d3a66;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#clock .icon{
+    font-size: 80px;
+    color:#0f274a;
+    margin-bottom: 30px;
+}
+/* #clock .time{
+    color:red;
+} */

@@ -14,8 +14,9 @@ const NavbarClock = (props) => {
         <div className={classContent} title="Clock" onClick={() => {
             window.location.href = "/clock";
         }}>
-            <span>Clock</span>
+            
             <Clock className="icon"></Clock>
+            <span>Clock</span>
         </div>
     );
 }

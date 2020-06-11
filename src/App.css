@@ -1,9 +1,16 @@
 :root{
   --var-height-navbar:50px;
   --var-color-navbar:#1d3a66;
+  --var-color-app:#1d3a66;
 }
 
 .container{
   display: inline-block;
   margin-top: var(--var-height-navbar);
+}
+
+h1 {
+  text-align: center;
+  color:var(--var-color-app);
+  font-size: 60px !important;
 }

@@ -62,6 +62,7 @@
 @media only screen and (max-width: 450px) {
     #navbar{
         bottom: 0;
+        height: 75px;
     }
     #navbar.mobile-version .navbar-logo{
         display: none;
@@ -76,13 +77,16 @@
 
     #navbar.mobile-version .icon{
         display: initial;
-        font-size: 20px;
+        font-size: 28px;
     }
     #navbar.mobile-version .active > .icon{
         color:#5598ff;
     }
     #navbar.mobile-version span{
-        display: none;
+        display: block;
+        font-size: 14px;
+        margin-top: 5px;
+        margin-left: 0;
     }
 
 }

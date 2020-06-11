@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Stopwatch = () => {
+const Stopwatch = (props) => {
 
     return(
         <div id="stopwatch">

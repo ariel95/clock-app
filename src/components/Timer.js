@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Timer = () => {
-
+const Timer = (props) => {
+    console.log(props.orientation);
     return(
         <div id="timer">
             <h1>Timer</h1>

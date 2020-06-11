@@ -15,8 +15,9 @@ const NavbarStopwatch = () => {
         <div className={classContent} title="Stopwatch" onClick={() => {
             window.location.href = "/stopwatch";
         }}>
-            <span>Stopwatch</span>
+            
             <Stopwatch className="icon"></Stopwatch>
+            <span>Stopwatch</span>
         </div>
     );
 }

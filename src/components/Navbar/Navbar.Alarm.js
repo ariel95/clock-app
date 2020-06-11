@@ -14,8 +14,9 @@ const NavbarAlarm = (props) => {
         <div className={classContent} title="Alarm" onClick={() => {
             window.location.href = "/alarm";
         }}>
-            <span>Alarm</span>
+            
             <Alarm className="icon"></Alarm>
+            <span>Alarm</span>
         </div>
     );
 

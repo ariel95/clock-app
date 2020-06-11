@@ -15,8 +15,9 @@ const NavbarTimer = () => {
         <div className={classContent} title="Timer" onClick={() => {
             window.location.href = "/timer";
         }}>
-            <span>Timer</span>
             <Watch className="icon"></Watch>
+            <span>Timer</span>
+            
         </div>
     );
 }
