@@ -1,0 +1,44 @@
+#stopwatch .time{
+    color: #1d3a66;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+#stopwatch .actions{
+    text-align: center;
+    position: absolute;
+    bottom: 100px;
+    width: 95%;
+}
+
+#stopwatch .actions > button{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    outline: none;
+    background-color:var(--var-color-app);
+    border:1px solid var(--var-color-app);
+    color:white;
+    margin: 15px;
+}
+#stopwatch .actions > button svg{
+    font-size: 40px;
+}
+
+
+#stopwatch .actions > button:active{
+    background-color: #006b8c;
+}
+
+#stopwatch #play{
+
+}
+#stopwatch #pause{
+    /* display: none; */
+}
+#stopwatch #stop{
+    /* display: none; */
+}

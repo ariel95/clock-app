@@ -14,3 +14,7 @@ h1 {
   color:var(--var-color-app);
   font-size: 60px !important;
 }
+
+.ocultar{
+  display: none;
+}

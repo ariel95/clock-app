@@ -15,6 +15,9 @@
     font-weight: bold;
     font-size: 18px;
 }
+#clock .time{
+    font-size: 50px;
+}
 
 #clock .icon{
     font-size: 80px;
